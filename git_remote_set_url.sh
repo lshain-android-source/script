@@ -22,7 +22,7 @@ do
          if [ "$PROJECT_GIT_PATH" != "" ]
          then
               cd $CUR_PATH/../$PROJECT_PATH
-              git remote set-url origin git@github.com:"$PROJECT_GIT_PATH".git
+              git remote set-url origin git@lshain-android-source.github.com:"$PROJECT_GIT_PATH".git
               PROJECT_PATH=""
               PROJECT_GIT_PATH=""
          fi
