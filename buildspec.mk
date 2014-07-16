@@ -24,7 +24,7 @@
 # Choose a product to build for.  Look in the products directory for ones
 # that work.
 ifndef TARGET_PRODUCT
-TARGET_PRODUCT:=flo
+TARGET_PRODUCT:=aosp_flo
 endif
 
 # Choose a variant to build.  If you don't pick one, the default is eng.
@@ -47,7 +47,7 @@ endif
 
 # Set this to debug or release if you care.  Otherwise, it defaults to release.
 ifndef TARGET_BUILD_TYPE
-#TARGET_BUILD_TYPE:=release
+TARGET_BUILD_TYPE:=release
 endif
 
 # Uncomment this if you want the host tools built in debug mode.  Otherwise
